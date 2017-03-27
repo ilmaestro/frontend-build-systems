@@ -29,6 +29,8 @@
 npm-debug.log
 testem.log
 /typings
+/.tscache
+.baseDir.ts
 
 # e2e
 /e2e/*.js

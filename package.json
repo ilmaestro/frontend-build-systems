@@ -1,0 +1,46 @@
+{
+  "name": "frontend-build-systems",
+  "version": "0.0.1",
+  "description": "Build an app to understand frontend build systems.",
+  "main": "server/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.0.35",
+    "@types/node": "^7.0.11",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express-server": "^0.5.3",
+    "grunt-open": "^0.2.3",
+    "grunt-ts": "^6.0.0-beta.15",
+    "grunt-tslint": "^4.0.1",
+    "load-grunt-tasks": "^3.5.2",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1"
+  },
+  "dependencies": {
+    "@angular/animations": "^4.0.0",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/platform-server": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "express": "^4.15.2",
+    "path": "^0.12.7",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.2.0",
+    "systemjs": "^0.19.47",
+    "zone.js": "^0.8.5"
+  }
+}
